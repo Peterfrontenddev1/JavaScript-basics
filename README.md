@@ -32,3 +32,5 @@ This is doing the same job as the <link> element for CSS. It applies the JavaScr
 Add this code to the main.js file:
 const myHeading = document.querySelector('h1');
 myHeading.textContent = 'Hello world!';
+
+Make sure the HTML and JavaScript files are saved. Then load index.html in your browser. You should see something like this:
