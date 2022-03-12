@@ -82,3 +82,12 @@ All of the above examples too.
 So why do we need variables? Variables are necessary to do anything interesting in programming. If values couldn't change, then you couldn't do anything dynamic, like personalize a greeting message or change an image displayed in an image gallery.
 
 Comments
+Comments are snippets of text that can be added along with code. The browser ignores text marked as comments. You can write comments in JavaScript just as you can in CSS:
+
+/*
+Everything in between is a comment.
+*/
+Copy to Clipboard
+If your comment contains no line breaks, it's an option to put it behind two slashes like this:
+
+// This is a comment
