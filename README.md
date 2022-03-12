@@ -22,3 +22,13 @@ A Hello world! example
 JavaScript is one of the most popular modern web technologies! As your JavaScript skills grow, your websites will enter a new dimension of power and creativity.
 
 However, getting comfortable with JavaScript is more challenging than getting comfortable with HTML and CSS. You may have to start small, and progress gradually. To begin, let's examine how to add JavaScript to your page for creating a Hello world! example. (Hello world! is the standard for introductory programming examples.)
+
+
+Go to your test site and create a new folder named scripts. Within the scripts folder, create a new text document called main.js, and save it.
+In your index.html file, enter this code on a new line, just before the closing </body> tag:
+<script src="scripts/main.js"></script>
+Copy to Clipboard
+This is doing the same job as the <link> element for CSS. It applies the JavaScript to the page, so it can have an effect on the HTML (along with the CSS, and anything else on the page).
+Add this code to the main.js file:
+const myHeading = document.querySelector('h1');
+myHeading.textContent = 'Hello world!';
