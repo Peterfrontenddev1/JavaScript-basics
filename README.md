@@ -40,3 +40,45 @@ The heading text changed to Hello world! using JavaScript. You did this by using
 Following that, the code set the value of the myHeading variable's textContent property (which represents the content of the heading) to Hello world!.
 
 Note: Both of the features you used in this exercise ar
+Variables
+Variables are containers that store values. You start by declaring a variable with the let keyword, followed by the name you give to the variable:
+
+let myVariable;
+Copy to Clipboard
+A semicolon at the end of a line indicates where a statement ends. It is only required when you need to separate statements on a single line. However, some people believe it's good practice to have semicolons at the end of each statement. There are other rules for when you should and shouldn't use semicolons. For more details, see Your Guide to Semicolons in JavaScript.
+
+You can name a variable nearly anything, but there are some restrictions. (See this section about naming rules.) If you are unsure, you can check your variable name to see if it's valid.
+
+JavaScript is case sensitive. This means myVariable is not the same as myvariable. If you have problems in your code, check the case!
+
+After declaring a variable, you can give it a value:
+
+myVariable = 'Bob';
+Copy to Clipboard
+Also, you can do both these operations on the same line:
+
+let myVariable = 'Bob';
+Copy to Clipboard
+You retrieve the value by calling the variable name:
+
+myVariable;
+Copy to Clipboard
+After assigning a value to a variable, you can change it later in the code:
+
+let myVariable = 'Bob';
+myVariable = 'Steve';
+Copy to Clipboard
+Note that variables may hold values that have different data types:
+
+Variable	Explanation	Example
+String	This is a sequence of text known as a string. To signify that the value is a string, enclose it in single quote marks.	let myVariable = 'Bob';
+Number	This is a number. Numbers don't have quotes around them.	let myVariable = 10;
+Boolean	This is a True/False value. The words true and false are special keywords that don't need quote marks.	let myVariable = true;
+Array	This is a structure that allows you to store multiple values in a single reference.	let myVariable = [1,'Bob','Steve',10];
+Refer to each member of the array like this:
+myVariable[0], myVariable[1], etc.
+Object	This can be anything. Everything in JavaScript is an object and can be stored in a variable. Keep this in mind as you learn.	let myVariable = document.querySelector('h1');
+All of the above examples too.
+So why do we need variables? Variables are necessary to do anything interesting in programming. If values couldn't change, then you couldn't do anything dynamic, like personalize a greeting message or change an image displayed in an image gallery.
+
+Comments
