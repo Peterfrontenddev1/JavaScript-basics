@@ -34,3 +34,9 @@ const myHeading = document.querySelector('h1');
 myHeading.textContent = 'Hello world!';
 
 Make sure the HTML and JavaScript files are saved. Then load index.html in your browser. You should see something like this:
+What happened?
+The heading text changed to Hello world! using JavaScript. You did this by using a function called querySelector() to grab a reference to your heading, and then store it in a variable called myHeading. This is similar to what we did using CSS selectors. When you want to do something to an element, you need to select it first.
+
+Following that, the code set the value of the myHeading variable's textContent property (which represents the content of the heading) to Hello world!.
+
+Note: Both of the features you used in this exercise ar
