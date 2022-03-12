@@ -18,3 +18,7 @@ It's outside the scope of this articleâ€”as a light introduction to JavaScriptâ€
 
 The section below introduces some aspects of the core language and offers an opportunity to play with a few browser API features too. Have fun!
 
+A Hello world! example
+JavaScript is one of the most popular modern web technologies! As your JavaScript skills grow, your websites will enter a new dimension of power and creativity.
+
+However, getting comfortable with JavaScript is more challenging than getting comfortable with HTML and CSS. You may have to start small, and progress gradually. To begin, let's examine how to add JavaScript to your page for creating a Hello world! example. (Hello world! is the standard for introductory programming examples.)
